@@ -1,0 +1,494 @@
+ * {
+   box-sizing: border-box;
+ }
+
+ body {
+   background: linear-gradient(hsl(217, 28%, 15%)10%, hsl(218, 28%, 13%)0%);
+   color: hsl(0, 0%, 100%);
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   font-weight: normal;
+   position: relative;
+   line-height: 1.5;
+   margin: 0;
+   padding: 0;
+ }
+
+ h1,
+ h2,
+ h3 {
+   font-family: 'Raleway', sans-serif;
+
+ }
+
+ a{
+   color: hsl(176, 68%, 64%);
+   text-decoration: none;
+ }
+
+ button {
+   background: #65E2D9;
+   background-image: -webkit-linear-gradient(top, #65E2D9, #339ECC);
+   background-image: -moz-linear-gradient(top, #65E2D9, #339ECC);
+   background-image: -ms-linear-gradient(top, #65E2D9, #339ECC);
+   background-image: -o-linear-gradient(top, #65E2D9, #339ECC);
+   background-image: linear-gradient(to bottom, #65E2D9, #339ECC);
+   border-radius: 45px;
+   border: solid #337FED 1px;
+   height: 18px;
+   color: hsl(0, 0%, 100%);
+   font-family: 'Open Sans', sans-serif;
+   width: 70%;
+   font-size: 14px;
+   font-weight: 700;
+   line-height: .1;
+   padding: 25px;
+   box-shadow: 1px 1px 20px 0px #000000;
+   -webkit-box-shadow: 1px 1px 20px 0px #000000;
+   -moz-box-shadow: 1px 1px 20px 0px #000000;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: auto;
+ }
+
+ button:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+ }
+
+ .box-1,
+ .box-2,
+ .box-3,
+ .box-4,
+ .box-5,
+ .box-6,
+ .box-7 {
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ /**********BOX 1***********/
+ .box-1 {
+   justify-content: space-between;
+   width: 100%;
+   align-items: center;
+   padding: 15px 15px 0 20px;
+ }
+
+ .box-1 img {
+   width: 70px;
+   height: auto;
+ }
+
+ .box-1 nav {}
+
+ .box-1 li {
+   font-weight: normal;
+   display: inline-block;
+   padding: 0 10px;
+ }
+
+ .box-1 img {
+   width: 10%;
+   height: auto;
+ }
+
+
+
+ /********BOX 2*********/
+ .box-2 {
+   text-align: center;
+   position: relative;
+   padding-bottom: 100px;
+   margin: 0 auto;
+ }
+
+
+
+
+ .box-2 img,
+ .box-2 h2,
+ .box-2 p {
+   width: 100%;
+ }
+
+ .button {
+   margin-top: 20px;
+ }
+
+ .box-2 h2 {
+   font-size: 2em;
+ }
+
+ .background-image {
+  position: absolute;
+  top: 310px;
+  z-index: -1;
+}
+
+
+ /******BOX 3*************/
+ .box-3 {
+   align-items: flex-end;
+    margin-bottom: 100px;
+   text-align: center;
+
+
+ }
+
+ .box-3 h3 {
+   font-size: 1.25em;
+ }
+
+ .files-grid,
+ .security-grid,
+ .collaboration-grid,
+ .type-grid {
+   width: 100%;
+   padding: 0 40px 100px 40px;
+ }
+
+
+
+
+ /*******BOX 4***********/
+
+ .box-4 {
+   text-align: center;
+   padding: 0 40px 100px 40px;
+ }
+
+ .image {
+   width: 100%;
+   margin: 30px 0;
+ }
+
+ .text-connection {
+   text-align: left;
+   width: 100%;
+ }
+
+.box-4 a {
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+}
+
+.box-4 h2 {
+  font-size: 1.75em;
+}
+
+
+
+
+
+
+ /*********BOX 5***********/
+ .box-5,
+ .box-5 h4,
+ .box-5 h5 {
+   width: 100%;
+ }
+
+.box-5 h4,
+.box-5 h5 {
+    margin: 0;
+    padding: 0;
+
+}
+
+.quotes {
+  position: absolute;
+  width: 4%;
+  z-index: -1;
+  top: 100px;
+  left: 30px;
+
+}
+
+ .box-5 h4 {
+   font-weight: 700;
+ }
+
+ .box-5 h5 {
+   font-weight: normal;
+ }
+
+
+
+ .profile-pic {
+   width: 30px;
+   border-radius: 50%;
+   float: left;
+   margin-right: 20px;
+
+
+
+ }
+
+ .profiles {
+   background-color: hsl(219, 30%, 18%);
+   margin:20px auto;
+   padding: 30px;
+
+
+ }
+
+.box-5 {
+  padding: 100px 0 400px 0;
+  position: relative;
+
+
+}
+
+
+
+
+
+ /***********BOX 6***********/
+ .box-6 {
+   text-align: center;
+   background-color: hsl(217, 28%, 15%);
+   margin: 0 auto;
+   padding: 30px;
+   position: absolute;
+   bottom: 700px;
+   right: 0;
+   left: 0;
+   width: 90%;
+   z-index: +1;
+   border-radius: 10px;
+   box-shadow: 1px 2px 2px 1px rgba(0,0,0,.5)
+
+ }
+
+ .box-6 button {
+   width: 90%;
+   margin-top: 20px;
+   padding: 30px;
+   text-align: center;
+ }
+
+.box-6 h3 {
+  padding-top: 0;
+}
+
+input[type=email] {
+  border-radius: 45px;
+  border: solid #337FED 1px;
+  height: 18px;
+  width: 90%;
+  line-height: .1;
+  padding: 30px;
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+.box-6 h3 {
+  font-size: 1.5rem;
+}
+
+
+.box-6 form {
+  margin: auto;
+}
+
+
+
+
+ /**********BOX 7**************/
+ .fylo-logo-bottom {
+   margin-bottom: 30px;
+ }
+ .box-7 {
+   text-align: left;
+   display: flex;
+   background-color: hsl(216, 53%, 9%);
+   padding: 300px 20px 15px 20px;
+ }
+
+ .left-bottom-logo,
+ .contact-info,
+ .first-list,
+ .second-list,
+ .social-media,
+ .location-box,
+ .fylo-logo-bottom {
+   width: 100%;
+ }
+
+ .social-media {
+   text-align: center;
+ }
+
+ .social-media i {
+   padding: 0 1px;
+   font-size: 2rem;
+ }
+
+ .first-list li,
+ .second-list li {
+   list-style: none;
+   line-height: 2;
+ }
+
+ .first-list ul,
+ .second-list ul {
+   padding-left: 0;
+ }
+
+.location-box img {
+   float: left;
+   margin: 20px 10px 80px 0;
+ }
+
+
+/*******MEDIA QUERIES*********/
+
+
+
+@media only screen and (min-width: 1352px) {
+  body {
+    background: linear-gradient(hsl(217, 28%, 15%) 30%, hsl(218, 28%, 13%)0%);
+
+  }
+  .background-image {
+   position: absolute;
+   top: 750px;
+   z-index: -1;
+  }
+/***BOX-2****/
+
+  .box-2 {
+    width: 70%;
+  }
+
+  .box-2 button {
+    width: 20%;
+  }
+
+  .box-2 h2,
+  .box-2 p {
+    padding: 0 200px;
+  }
+
+
+  /****BOX-3*****/
+  .files-grid,
+  .security-grid,
+  .collaboration-grid,
+  .type-grid {
+    width: 50%;
+    padding: 0 100px;
+
+  }
+  /****BOX-4*****/
+    .box-4 {
+      padding: 0 100px;
+    }
+    .image {
+      padding-right: 30px;
+      width: 50%;
+
+    }
+
+    .text-connection {
+      padding: 0 60px;
+      width: 50%;
+    }
+
+
+  /****BOX-5*****/
+
+    .profiles {
+
+      width: 30%;
+    }
+
+    .box-5 {
+      justify-content: space-around;
+      padding-bottom:250px;
+
+    }
+
+    .quotes {
+      position: absolute;
+      z-index: -1;
+      top: 80px;
+
+    }
+
+
+
+
+  /****BOX-6*****/
+
+  .box-6 {
+    justify-content: space-between;
+    bottom: 300px;
+    width: 60%;
+  }
+
+  .box-6 input {
+    width: 60%;
+    margin-right: 30px;
+  }
+
+  .box-6 button {
+    width: 30%;
+
+  }
+
+
+  /****BOX-7*****/
+  .fylo-logo-bottom {
+    width: 100%;
+  }
+  .location-box,
+  .contact-info,
+  .first-list,
+  .second-list,
+  .social-media {
+    width: 20%;
+
+  }
+
+  .location-box {
+    padding: 0 20px;
+    flex: 3;
+}
+
+.contact-info {
+  flex: 2;
+  text-align: center;
+}
+
+.first-list {
+
+  margin-left: 100px;
+}
+
+
+.first-list,
+.second-list,
+.social-media {
+  flex: 1;
+}
+
+.box-7 {
+  padding-top: 200px;
+}
+
+}
